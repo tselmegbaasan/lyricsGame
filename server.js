@@ -22,22 +22,22 @@ const playlists = {
 }
 
 const playlists_id = [
-    playlists.top_50_global
-    /*     playlists.top_50_sweden,
-        playlists.sommarhits_2020,
-        playlists.songs_to_sing_in_the_car,
-        playlists.songs_to_sing_in_the_shower,
-        playlists.guilty_pleasures,
-        playlists.indie_hits,
-        playlists.heard_it_before,
-        playlists.all_of_00s,
-        playlists._90_tals_hits,
-        playlists.all_of_80s,
-        playlists.all_of_70s,
-        playlists.one_hit_wonders */
+    playlists.top_50_global,
+    playlists.top_50_sweden,
+    playlists.sommarhits_2020,
+    playlists.songs_to_sing_in_the_car,
+    playlists.songs_to_sing_in_the_shower,
+    playlists.guilty_pleasures,
+    playlists.indie_hits,
+    playlists.heard_it_before,
+    playlists.all_of_00s,
+    playlists._90_tals_hits,
+    playlists.all_of_80s,
+    playlists.all_of_70s,
+    playlists.one_hit_wonders
 ]
 
-dbSetup(db, playlists_id);
+//dbSetup(db, playlists_id);
 
 
 const app = express();
